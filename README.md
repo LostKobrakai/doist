@@ -2,7 +2,7 @@
 
 Currently only the `:unix` executable is supported. 
 
-```
+```elixir
 def project do
   [
     …,
@@ -30,7 +30,7 @@ defp commands do
 end
 ```
 
-```
+```bash
 /bin/doist migrate
 ```
 
