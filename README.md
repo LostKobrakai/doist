@@ -6,7 +6,7 @@ Currently only the `:unix` executable is supported.
 def project do
   [
     …,
-    release: release()
+    releases: releases()
   ]
 end
 
